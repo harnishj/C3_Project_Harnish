@@ -22,11 +22,11 @@ public class Restaurant {
     public boolean isRestaurantOpen() {
         //return true;
         //DELETE ABOVE STATEMENT AND WRITE CODE HERE
-
+//        boolean open  = false;
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm");
 
         //Parsing/formatting the current, opening and closing time.
-        LocalTime curTime = LocalTime.parse(LocalTime.now().format(formatter));
+        LocalTime curTime = LocalTime.parse(getCurrentTime().format(formatter));
         openingTime = LocalTime.parse(openingTime.format(formatter));
         closingTime = LocalTime.parse(closingTime.format(formatter));
 
