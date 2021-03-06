@@ -31,18 +31,6 @@ class RestaurantServiceTest {
     }
     //<<<<<<<<<<<<<<<<<<<<SEARCHING>>>>>>>>>>>>>>>>>>>>>>>>>>
 
-    //<<<<<<<<<<<<<<<<<<<<ESTIMATING>>>>>>>>>>>>>>>>>>>>>>>>>>
-    /*@Test
-    public void when_selecting_menu_items_should_display_order_total(){
-
-        Item item = null;
-        Double orderTotal= restaurant.selectmenuitems(name,price);
-
-    }*/
-
-
-    //<<<<<<<<<<<<<<<<<<<<ESTIMATING>>>>>>>>>>>>>>>>>>>>>>>>>>
-
     //>>>>>>>>>>>>>>>>>>>>>>ADMIN: ADDING & REMOVING RESTAURANTS<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
     @Test
     public void remove_restaurant_should_reduce_list_of_restaurants_size_by_1() throws restaurantNotFoundException {
